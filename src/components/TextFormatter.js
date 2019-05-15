@@ -4,8 +4,9 @@ import figlet from 'figlet';
 export default class TextFormatter extends PureComponent {
   state = {
     text: '',
-    color: 'blue',
-    font: 'doh'
+    formattedText: '',
+    color: '#000000',
+    font: 'Doh'
   };
 
   formatText = () => {
@@ -25,12 +26,17 @@ export default class TextFormatter extends PureComponent {
 
   render() {
     const { text, formattedText, color, font } = this.state;
+    const fontsArray = ['Doh', 'Roman', 'Isometric3', 'Dr Pepper', 'Dot Matrix'];
+    const fontOptions = fontsArray.map(font => {
+      return <option key={font} value={font}>{font}</option>;
+    });
 
     return (
       <>
+      <select name="font" value={font} onChange={this.handleChange}>{fontOptions}</select>
       <input name="text" value={text} onChange={this.handleChange} />
       <input name="color" type="color" value={color} onChange={this.handleChange} />
-      <pre style={{ color: this.state.color }}>{formattedText}</pre>
+      <pre style={{ color }}>{formattedText}</pre>
       </>
     );
   }
