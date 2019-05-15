@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colors component renders Colors 1`] = `
+<ul>
+  <li
+    key="olive"
+    style={
+      Object {
+        "color": Object {
+          "hex": "#808000",
+          "name": "olive",
+          "rgb": "(0, 0, 128)",
+        },
+        "fontSize": "2em",
+      }
+    }
+  >
+    <Color
+      hex="#808000"
+      name="olive"
+      rgb="(0, 0, 128)"
+    />
+  </li>
+  <li
+    key="olivedrab"
+    style={
+      Object {
+        "color": Object {
+          "hex": "#6B8E23",
+          "name": "olivedrab",
+          "rgb": "(128, 128, 0)",
+        },
+        "fontSize": "2em",
+      }
+    }
+  >
+    <Color
+      hex="#6B8E23"
+      name="olivedrab"
+      rgb="(128, 128, 0)"
+    />
+  </li>
+  <li
+    key="orange"
+    style={
+      Object {
+        "color": Object {
+          "hex": "#FFA500",
+          "name": "orange",
+          "rgb": "(107, 142, 35)",
+        },
+        "fontSize": "2em",
+      }
+    }
+  >
+    <Color
+      hex="#FFA500"
+      name="orange"
+      rgb="(107, 142, 35)"
+    />
+  </li>
+</ul>
+`;
