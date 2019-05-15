@@ -5,37 +5,37 @@ exports[`Textformatter renders text with text formatter 1`] = `
   <select
     name="font"
     onChange={[Function]}
-    value="doh"
+    value="Doh"
   >
     <option
-      key="doh"
-      value="doh"
+      key="Doh"
+      value="Doh"
     >
-      doh
+      Doh
     </option>
     <option
-      key="roman"
-      value="roman"
+      key="Roman"
+      value="Roman"
     >
-      roman
+      Roman
     </option>
     <option
-      key="isometric3"
-      value="isometric3"
+      key="Isometric3"
+      value="Isometric3"
     >
-      isometric3
+      Isometric3
     </option>
     <option
-      key="drpepper"
-      value="drpepper"
+      key="Dr Pepper"
+      value="Dr Pepper"
     >
-      drpepper
+      Dr Pepper
     </option>
     <option
-      key="dotmatrix"
-      value="dotmatrix"
+      key="Dot Matrix"
+      value="Dot Matrix"
     >
-      dotmatrix
+      Dot Matrix
     </option>
   </select>
   <input
