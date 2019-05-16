@@ -3,7 +3,7 @@ import CreateColor from '../components/CreateColor';
 import Colors from '../components/Colors';
 
 export default class ColorList extends PureComponent {
-  state ={
+  state = {
     colors: []
   }
 
@@ -20,7 +20,7 @@ export default class ColorList extends PureComponent {
     return (
       <>
       <CreateColor addColor={this.addColor} />
-      <Colors color={colors} />
+      <Colors colors={colors} />
       </>
     );
   }
