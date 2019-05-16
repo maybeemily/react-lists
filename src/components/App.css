@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  align-items: left;
+  color: black;
+  p {
+    margin-left: 10vw;
+    font-size: 4rem;
+  }
+}
