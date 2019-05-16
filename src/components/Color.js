@@ -15,6 +15,7 @@ const rgbFromHex = hex => {
 
 function Color({ name, hex }) {
   const rgb = rgbFromHex(hex);
+
   return (
     <dl>
       <dt>Name</dt>
@@ -24,7 +25,7 @@ function Color({ name, hex }) {
       <dd>{hex}</dd>
 
       <dt>RGB</dt>
-      <dd><p>({rgb.red},{rgb.green},{rgb.blue})</p></dd>
+      <dd><p>{rgb.red},{rgb.green},{rgb.blue}</p></dd>
     </dl>
   );
 }
