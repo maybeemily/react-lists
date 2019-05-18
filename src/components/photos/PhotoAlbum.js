@@ -6,7 +6,7 @@ function PhotoAlbum({ title, photos }) {
   return (
     <section>
       <h2>{title}</h2>
-      <Photos photos={photos}/>
+      <Photos photoArray={photos}/>
     </section>
   );
 }
